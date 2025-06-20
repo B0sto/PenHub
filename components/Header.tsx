@@ -1,6 +1,4 @@
 import React from 'react'
-import PenHub from '@/public/PenHub.svg'
-import Image from 'next/image'
 import Logo from '@/public/Logo'
 
 const Header = () => {
