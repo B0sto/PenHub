@@ -1,7 +1,11 @@
 @import "tailwindcss";
 
-.hero {
-  background-image: url("../public/banner.jpg");
-  background-position: center center;
-  background-repeat: no-repeat;
+:root {
+  --breakpoint-M: 1144px;
+}
+
+@media(max-width: var(--breakpoint-M)) {
+  h1 {
+    
+  }
 }
