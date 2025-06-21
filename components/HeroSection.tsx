@@ -3,7 +3,7 @@ import NetworkSecurityGlobe from "./NetworkSecurityGlobe";
 
 const HeroSection = () => {
   return (
-    <section className="w-full max-w-[1440px] mx-auto min-h-[80vh] flex flex-col-reverse md:flex-row items-center justify-between px-6">
+    <section className="w-full max-w-[1440px] mx-auto min-h-[90vh] flex flex-col md:flex-row items-center justify-between px-6">
       <div className="max-w-xl z-10">
         <h1 className="text-4xl md:text-6xl font-bold text-white leading-tight">
           Master <span className="text-cyan-400">Cybersecurity</span>
@@ -15,16 +15,16 @@ const HeroSection = () => {
           digital future.
         </p>
         <div className="mt-6 flex gap-4">
-          <button className="bg-cyan-500 hover:bg-cyan-600 text-black font-semibold py-3 px-6 rounded-lg shadow-lg">
+          <button className="bg-cyan-500 hover:bg-cyan-600 text-black font-semibold py-3 px-6 rounded-lg shadow-lg transition-all duration-300 cursor-pointer">
             Get Started
           </button>
-          <button className="border border-cyan-500 text-cyan-400 py-3 px-6 rounded-lg">
+          <button className="border border-cyan-500 text-cyan-400 py-3 px-6 rounded-lg hover:bg-cyan-500 hover:text-black transition-all duration-300 cursor-pointer">
             View Courses
           </button>
         </div>
       </div>
 
-      <div className="hidden md:block z-10">
+      <div className="md:block z-10">
         <NetworkSecurityGlobe/>
       </div>
     </section>
