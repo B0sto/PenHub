@@ -1,6 +1,6 @@
 import React from "react";
 import SpotlightCard from "./SpotlightCard";
-import data from "@/data.json";
+import data from '@/data/data.json'
 
 const AboutSection = () => {
   const cards = [

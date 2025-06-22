@@ -17,9 +17,15 @@ export default function Home() {
       <main className="relative z-10">
         <div className="px-15 max-[1200px]:px-10 max-[730px]:px-6">
           <Header />
-          <HeroSection />
-          <AboutSection />
-          <ContactSection />
+          <div id="home">
+            <HeroSection />
+          </div>
+          <div id="about">
+            <AboutSection />
+          </div>
+          <div id="contact">
+            <ContactSection />
+          </div>
         </div>
         <Footer />
       </main>
