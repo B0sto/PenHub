@@ -1,2 +1,7 @@
 @import "tailwindcss";
 
+@utility {
+    .message {
+        @apply flex justify-center items-center flex-col;
+    }
+}
