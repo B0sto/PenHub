@@ -1,10 +1,10 @@
-import React, { useState } from "react";
+import React from "react";
 
 type Props = {
   text: string;
 };
 
-const HeaderItem = ({ text }: { text: string }) => {
+const HeaderItem = ({ text }: Props) => {
   const handleClick = () => {
     const id = text.toLowerCase();
     const target = document.getElementById(id);
