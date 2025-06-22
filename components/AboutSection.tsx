@@ -28,9 +28,9 @@ const AboutSection = () => {
 
   return (
     <div className="max-w-[1440px] mx-auto px-6 py-20 text-white">
-      <h3 className="text-5xl font-bold mb-12">About Us</h3>
+      <h3 className="text-[48px] font-bold mb-12 max-[940px]:text-center max-[940px]:text-[40px]">About Us</h3>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-items-center">
+      <div className="grid grid-cols-3 max-[1200px]:grid-cols-2 max-[940px]:grid-cols-1 gap-8 justify-items-center">
         {cards.map((card, index) => (
           <SpotlightCard
             key={index}

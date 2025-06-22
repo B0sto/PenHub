@@ -3,9 +3,9 @@ import NetworkSecurityGlobe from "./NetworkSecurityGlobe";
 
 const HeroSection = () => {
   return (
-    <section className="w-full max-w-[1440px] mx-auto min-h-[90vh] flex flex-col md:flex-row items-center justify-between px-6">
+    <section className="w-full max-w-[1440px] mx-auto min-h-[90vh] flex max-[900px]:flex-col-reverse max-[900px]:text-center items-center justify-between max-[900px]:justify-center px-6 max-[900px]:-mt-[50px]">
       <div className="max-w-xl z-10">
-        <h1 className="text-4xl md:text-6xl font-bold text-white leading-tight">
+        <h1 className="text-[60px] max-[1200px]:text-[48px] max-[768px]:text-[35px] font-bold text-white leading-tight">
           Master <span className="text-cyan-400">Cybersecurity</span>
           <br />
           with Real-World Courses
@@ -14,7 +14,7 @@ const HeroSection = () => {
           Learn how to defend systems, find vulnerabilities, and build a safer
           digital future.
         </p>
-        <div className="mt-6 flex gap-4">
+        <div className="mt-6 flex gap-4 max-[900px]:justify-center max-[410px]:flex-col max-[900px]:text-[14px]">
           <button className="bg-cyan-500 hover:bg-cyan-600 text-black font-semibold py-3 px-6 rounded-lg shadow-lg transition-all duration-300 cursor-pointer">
             Get Started
           </button>
@@ -24,8 +24,8 @@ const HeroSection = () => {
         </div>
       </div>
 
-      <div className="md:block z-10">
-        <NetworkSecurityGlobe/>
+      <div className="z-10 -mr-[50px] max-[900px]:mr-[0]">
+        <NetworkSecurityGlobe />
       </div>
     </section>
   );

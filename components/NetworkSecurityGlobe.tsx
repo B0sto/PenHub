@@ -266,11 +266,7 @@ function Globe() {
 
 export default function NetworkSecurityGlobe() {
   return (
-    <div
-      style={{
-        width: "500px",
-        height: "600px",
-      }}
+    <div className="size-[600px] max-[1200px]:size-[450px]"
     >
       <Canvas
         camera={{ position: [0, 0, 6], fov: 60 }}
