@@ -3,9 +3,7 @@ import React, { useState } from "react";
 import {
   FaFacebookF,
   FaInstagram,
-  FaTwitter,
   FaLinkedin,
-  FaEnvelope,
 } from "react-icons/fa";
 
 const ContactSection = () => {
@@ -68,14 +66,6 @@ const ContactSection = () => {
                 className="text-cyan-300 hover:text-white text-2xl transition"
               >
                 <FaInstagram />
-              </a>
-              <a
-                href="https://twitter.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-cyan-300 hover:text-white text-2xl transition"
-              >
-                <FaTwitter />
               </a>
               <a
                 href="https://linkedin.com"
