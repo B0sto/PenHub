@@ -1,27 +1,45 @@
-import React from "react";
+"use client";
+
+import { usePathname, useRouter } from "next/navigation";
+import Link from "next/link";
 
 type Props = {
   text: string;
+  section?: string;
+  href?: string;
+  onClick?: () => void; 
 };
 
-const HeaderItem = ({ text }: Props) => {
+const HeaderItem: React.FC<Props> = ({ text, section, href, onClick }) => {
+  const pathname = usePathname();
+  const router = useRouter();
+
+  if (href) {
+    return (
+      <li
+        onClick={onClick}
+        className="text-[20px] hover:text-cyan-400 transition-all duration-200 cursor-pointer"
+      >
+        <Link href={href}>{text}</Link>
+      </li>
+    );
+  }
+
   const handleClick = () => {
-    const id = text.toLowerCase();
-    const target = document.getElementById(id);
-    if (target) {
-      target.scrollIntoView({behavior: "smooth", block: "start"})
+    if (pathname === "/") {
+      const el = document.getElementById(section || "");
+      el?.scrollIntoView({ behavior: "smooth" });
+    } else {
+      router.push(`/?scroll=${section}`);
     }
 
-    if (typeof window !== "undefined") {
-      const event = new CustomEvent("menu-close");
-      window.dispatchEvent(event);
-    }
-  }
+    onClick?.();
+  };
 
   return (
     <li
-      className={`text-[20px] max-[1200px]:text-[16px] transition-all duration-200 cursor-pointer text-white md:hover:text-cyan-400 md:hover:drop-shadow-[0_0_5px_cyan]`}
       onClick={handleClick}
+      className="text-[20px] hover:text-cyan-400 transition-all duration-200 cursor-pointer"
     >
       {text}
     </li>

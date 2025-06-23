@@ -3,9 +3,9 @@ import NetworkSecurityGlobe from "./NetworkSecurityGlobe";
 
 const HeroSection = () => {
   return (
-    <section className="w-full max-w-[1440px] mx-auto min-h-[90vh] flex max-[900px]:flex-col-reverse max-[900px]:text-center items-center justify-between max-[900px]:justify-center px-6 max-[900px]:-mt-[50px]">
+    <section className="w-full max-w-[1440px] mx-auto min-h-[95vh] flex max-[900px]:flex-col-reverse max-[900px]:text-center items-center justify-between max-[900px]:justify-center px-6 max-[900px]:-mt-[50px]">
       <div className="max-w-xl z-10">
-        <h1 className="text-[60px] max-[1200px]:text-[48px] max-[768px]:text-[35px] font-bold text-white leading-tight">
+        <h1 className="text-[60px] max-[1200px]:text-[48px] max-[768px]:text-[35px] max-[500px]:text-[30px] font-bold text-white leading-tight">
           Master <span className="text-cyan-400">Cybersecurity</span>
           <br />
           with Real-World Courses
