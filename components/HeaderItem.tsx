@@ -11,6 +11,8 @@ type Props = {
 };
 
 const HeaderItem: React.FC<Props> = ({ text, section, href, onClick }) => {
+
+
   const pathname = usePathname();
   const router = useRouter();
 
@@ -18,7 +20,7 @@ const HeaderItem: React.FC<Props> = ({ text, section, href, onClick }) => {
     return (
       <li
         onClick={onClick}
-        className="text-[20px] hover:text-cyan-400 transition-all duration-200 cursor-pointer"
+        className={` hover:text-cyan-400 transition-all duration-200 cursor-pointer text-[19px]`}
       >
         <Link href={href}>{text}</Link>
       </li>
@@ -39,7 +41,7 @@ const HeaderItem: React.FC<Props> = ({ text, section, href, onClick }) => {
   return (
     <li
       onClick={handleClick}
-      className="text-[20px] hover:text-cyan-400 transition-all duration-200 cursor-pointer"
+      className={`hover:text-cyan-400 transition-all duration-200 cursor-pointer text-[19px]`}
     >
       {text}
     </li>

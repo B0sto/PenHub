@@ -1,0 +1,18 @@
+{
+  "navigation": {
+    "home": "Home",
+    "about": "About",
+    "contact": "Contact",
+    "courses": "Courses",
+    "blogs": "Blogs"
+  },
+
+  "hero": {
+    "head_text1": "Master",
+    "head_text2": "Cybersecurity",
+    "head_text3": "with Real-World Courses",
+    "head_subtext": "Learn how to defend systems, find vulnerabilities, and build a safer digital future",
+    "start_btn": "Get Started",
+    "view_courses": "View Courses"
+  }
+}
