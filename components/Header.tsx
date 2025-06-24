@@ -43,7 +43,7 @@ const Header = () => {
         </ul>
 
         {menuOpen && (
-          <ul className="absolute top-full right-6 w-[200px] bg-transparent border border-cyan-500 shadow-[0_0_10px_#00f2ff] text-[18px] rounded-xl py-4 px-6 flex flex-col gap-4 mt-4 transition-all duration-300 z-40 backdrop-blur-md">
+          <ul className="bg-[rgba(7,13,26,0.1)] absolute top-full right-6 w-[200px] border border-cyan-500 shadow-[0_0_10px_#00f2ff] text-[18px] rounded-xl py-4 px-6 flex flex-col gap-4 mt-4 transition-all duration-300 z-40 backdrop-blur-md">
             <HeaderItem
               text={t.navigation.home}
               section="home"

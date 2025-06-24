@@ -3,15 +3,3 @@
 html {
   scroll-behavior: smooth;
 }
-
-:root {
-  --font-family-dynamic: var(--font-english);
-}
-
-body.use-georgian {
-  --font-family-dynamic: var(--font-georgian);
-}
-
-.font-dynamic {
-  font-family: var(--font-family-dynamic), sans-serif;
-}

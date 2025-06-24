@@ -14,5 +14,95 @@
     "head_subtext": "Learn how to defend systems, find vulnerabilities, and build a safer digital future",
     "start_btn": "Get Started",
     "view_courses": "View Courses"
-  }
+  },
+
+  "about": {
+    "head_text": "About",
+    "CardOneName": "Individual and Team trainings",
+    "CardOneText": "At PenHub, we offer practical, hands-on training programs tailored for both individuals and teams. Whether you're an aspiring cybersecurity professional or an organization looking to upskill your workforce, our courses are designed to build real-world capabilities. From foundational security principles to advanced offensive and defensive techniques, we equip learners with the skills they need to thrive in today's threat landscape. All training is customizable to meet specific goals, industry needs, and technical levels.",
+    "CardTwoName": "Incident Handling",
+    "CardTwoText": "When cyber incidents strike, every second counts. PenHub provides rapid and effective incident response services to help you detect, contain, and recover from security breaches. Our expert team investigates the root cause, minimizes damage, preserves forensic evidence, and restores operations with minimal downtime. Whether it's malware, data leaks, or targeted attacks — we act fast to protect your assets and reputation.",
+    "CardThreeName": "Consulting",
+    "CardThreeText": "At PenHub, our cybersecurity consulting services are designed to help you make informed, strategic decisions. Whether you're building a security program from the ground up or refining existing policies, our experts provide tailored guidance aligned with your business goals and regulatory requirements. We work closely with organizations of all sizes to identify risks, design secure architectures, and implement best practices that ensure long-term resilience.",
+    "CardFourName": "Penetration Testing",
+    "CardFourText": "PenHub conducts realistic, in-depth penetration testing to identify vulnerabilities before attackers do. By simulating real-world attack scenarios, we assess the security of your networks, applications, and systems — revealing weak points and providing clear, actionable recommendations. Our goal is not just to find flaws, but to help you understand and fix them, strengthening your overall security posture.",
+    "CardFiveName": "Vulnerability Assessments",
+    "CardFiveText": "At PenHub, we help you stay ahead of cyber threats through detailed security and vulnerability assessments. Our team performs thorough evaluations of your systems, applications, and infrastructure to uncover hidden risks before they can be exploited. Using both automated tools and manual analysis, we identify misconfigurations, outdated software, and potential attack vectors — delivering clear reports with prioritized recommendations to strengthen your overall security posture."
+  },
+
+  "contact": {
+    "questions": "Do you have any questions?",
+    "placeholder": "Your Message...",
+    "button": "Send",
+    "social_media": "Or follow us on social media"
+  },
+
+  "footer": {
+    "rights": "All rights reserved"
+  },
+
+  "course_page": {
+    "head_text": "Cybersecurity Courses"
+  },
+
+  "course_btns": {
+    "back": "Back to Courses",
+    "level": "Level",
+    "start_btn": "Start Course",
+    "course_overview": "Course Overview",
+    "course_information": "Course Information",
+    "duration": "Duration",
+    "certificate": "Certificate",
+    "access": "Access",
+    "What_will_learn": "What You'll Learn"
+  },
+
+  "courses": [
+    {
+      "id": "web-security-basics",
+      "title": "Web Security Basics",
+      "description": "Learn how to defend websites against common attacks.",
+      "level": "Beginner",
+      "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=600&h=600&fit=crop&crop=center",
+      "link": "#",
+      "level_btn": "დონე",
+      "details": "This course covers:\n- Cross-site scripting (XSS)\n- SQL injection\n- Security headers\n- Secure authentication methods\n- Best practices for web security\n\nBy the end, you'll be able to secure basic web applications and understand common vulnerabilities.",
+      "access": "Lifetime",
+      "certificate": "Available",
+      "duration": "Self-paced",
+      "will_learn1": "Master the fundamentals and advanced concepts",
+      "will_learn2": "Build real-world projects from scratch",
+      "will_learn3": "Apply best practices and industry standards"
+    },
+    {
+      "id": "ethical-hacking-101",
+      "title": "Ethical Hacking 101",
+      "description": "Understand how hackers think and how to stop them.",
+      "level": "Intermediate",
+      "image": "https://www.logsign.com/uploads/ethical_2e0097bfc3.jpg",
+      "link": "#",
+      "details": "Topics include:\n- Penetration testing techniques\n- Vulnerability scanning\n- Social engineering basics\n- Exploitation methods\n- Reporting and remediation\n\nThis course is designed to give hands-on knowledge in ethical hacking fundamentals.",
+      "access": "Lifetime",
+      "certificate": "Available",
+      "duration": "Self-paced",
+      "will_learn1": "Discover how ethical hackers operate in the real world",
+      "will_learn2": "Perform vulnerability scans and penetration tests",
+      "will_learn3": "Understand and counteract social engineering attacks"
+    },
+    {
+      "id": "network-defense",
+      "title": "Network Defense Strategies",
+      "description": "Build secure networks and monitor traffic effectively.",
+      "level": "Advanced",
+      "image": "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=600&h=600&fit=crop&crop=center",
+      "link": "#",
+      "details": "Learn to:\n- Design secure network architectures\n- Use firewalls and intrusion detection systems\n- Analyze network traffic\n- Deploy VPNs and encryption\n- Implement network policies\n\nPrepare for advanced network defense roles and certifications.",
+      "access": "Lifetime",
+      "certificate": "Available",
+      "duration": "Self-paced",
+      "will_learn1": "Design and secure complex network infrastructures",
+      "will_learn2": "Implement traffic monitoring and anomaly detection",
+      "will_learn3": "Utilize VPNs, firewalls, and encryption protocols"
+    }
+  ]
 }
