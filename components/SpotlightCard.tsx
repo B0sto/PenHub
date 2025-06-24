@@ -66,7 +66,7 @@ const SpotlightCard: React.FC<SpotlightCardProps> = ({
           background: `radial-gradient(circle at ${position.x}px ${position.y}px, ${spotlightColor}, transparent 80%)`,
         }}
       />
-      <h3 className="text-cyan-400 text-2xl mb-3 font-bold tracking-wide">
+      <h3 className="text-cyan-400 text-2xl mb-3 font-bold tracking-wide max-[600px]:text-[19px]">
         {name}
       </h3>
       <p className="text-neutral-300 font-light">

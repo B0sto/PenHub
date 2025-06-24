@@ -9,7 +9,8 @@ type CourseCardProps = {
   title: string;
   description: string;
   level: string;
-  image?: string;
+  image: string;
+  level_btn?: string;
 };
 
 const CourseCard: FC<CourseCardProps> = ({
@@ -17,6 +18,7 @@ const CourseCard: FC<CourseCardProps> = ({
   title,
   description,
   level,
+  level_btn,
   image = "https://builtin.com/sites/www.builtin.com/files/2024-10/cybersecurity.png"
 }) => {
   return (
@@ -44,7 +46,7 @@ const CourseCard: FC<CourseCardProps> = ({
 
           <div className="mt-4">
             <span className="inline-block text-xs uppercase tracking-wide text-cyan-300 bg-cyan-300/10 px-3 py-1 rounded-full">
-              Level: {level}
+              {level_btn}: {level}
             </span>
           </div>
         </div>
