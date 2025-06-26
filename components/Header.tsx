@@ -19,8 +19,8 @@ const Header = () => {
   }, []);
 
   return (
-    <header>
-      <nav className="sticky top-0 left-0 w-full z-50 bg-[rgba(7,13,26,0.1)] backdrop-blur-md border-b border-white/10 shadow-[0_0_15px_rgba(0,255,255,0.1)] rounded-b-xl">
+    <header className="sticky top-0 left-0 w-full z-50 bg-[rgba(7,13,26,0.1)] backdrop-blur-md border-b border-white/10 shadow-[0_0_15px_rgba(0,255,255,0.1)] rounded-b-xl">
+      <nav>
         <div className="max-w-[1440px] mx-auto py-5 flex justify-between items-center text-[#EDEDED] px-8 max-[700px]:px-10 max-[700px]:py-3">
           <Link
             href={"/"}
