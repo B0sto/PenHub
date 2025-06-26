@@ -2,8 +2,8 @@
 
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
-import { courses as enCourses } from "@/data/en.json";
-import { courses as kaCourses } from "@/data/ka.json";
+import enCourses from "@/data/en.json";
+import kaCourses from "@/data/ka.json";
 import { useLanguage } from "@/context/LanguageContext";
 import BackButton from "@/components/BackButton";
 
@@ -28,8 +28,9 @@ export default function CoursePageClient({ id }: { id: string }) {
   const [course, setCourse] = useState<Course | null>(null);
 
   useEffect(() => {
-    const courses = locale === "ka" ? kaCourses : enCourses;
-    const foundCourse = courses.find((c) => c.id === id) || null;
+    const coursesData = locale === "ka" ? kaCourses : enCourses;
+    const courses = coursesData.courses || [];
+    const foundCourse = courses.find((c: Course) => c.id === id) || null;
     setCourse(foundCourse);
   }, [locale, id]);
 

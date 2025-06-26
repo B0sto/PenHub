@@ -1,7 +1,7 @@
 {
   "navigation": {
     "home": "Home",
-    "about": "About",
+    "about": "About Us",
     "contact": "Contact",
     "courses": "Courses",
     "blogs": "Blogs"
@@ -17,7 +17,7 @@
   },
 
   "about": {
-    "head_text": "About",
+    "head_text": "About Us",
     "CardOneName": "Individual and Team trainings",
     "CardOneText": "At PenHub, we offer practical, hands-on training programs tailored for both individuals and teams. Whether you're an aspiring cybersecurity professional or an organization looking to upskill your workforce, our courses are designed to build real-world capabilities. From foundational security principles to advanced offensive and defensive techniques, we equip learners with the skills they need to thrive in today's threat landscape. All training is customizable to meet specific goals, industry needs, and technical levels.",
     "CardTwoName": "Incident Handling",
@@ -55,6 +55,10 @@
     "certificate": "Certificate",
     "access": "Access",
     "What_will_learn": "What You'll Learn"
+  },
+
+  "courses_not": {
+    "not_found": "Course not found."
   },
 
   "courses": [
@@ -104,5 +108,12 @@
       "will_learn2": "Implement traffic monitoring and anomaly detection",
       "will_learn3": "Utilize VPNs, firewalls, and encryption protocols"
     }
-  ]
+  ],
+
+  "blogs": {
+    "header": "All Blogs",
+    "go_back": "Back to Blogs",
+    "no_blogs": "No Blogs were found"
+
+  }
 }
