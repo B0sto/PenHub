@@ -32,7 +32,7 @@ const LOCAL_STORAGE_KEY = "app-language";
 
 export function LanguageProvider({ children }: { children: ReactNode }) {
   const [locale, setLocale] = useState<Locale | null>(null);
-  const [t, setT] = useState<Translations>(ka);
+  const [t, setT] = useState<Translations>(en);
 
   useEffect(() => {
     const savedLocale = localStorage.getItem(
@@ -40,7 +40,7 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
     ) as Locale | null;
 
     const initialLocale: Locale =
-      savedLocale && ["en", "ka"].includes(savedLocale) ? savedLocale : "ka";
+      savedLocale && ["en", "ka"].includes(savedLocale) ? savedLocale : "en";
 
     setLocale(initialLocale);
     setT(translationsMap[initialLocale]);
